@@ -14,7 +14,7 @@ async function getweather(query) {
       lang: "en",
     },
     headers: {
-      "x-rapidapi-key": "9f49f911f5msh2b48ce8feb1ap1904bfjsn2f58edb80da4",
+      "x-rapidapi-key": "",
       "x-rapidapi-host": "weater-api167.p.rapidapi.com",
       Accept: "application/json",
     },
@@ -38,7 +38,7 @@ async function google(params) {
       related_keywords: "true",
     },
     headers: {
-      "x-rapidapi-key": "9f49f911f5msh2b8ce8459f1ap1904bfjsn2f58e0da4",
+      "x-rapidapi-key": "",
       "x-rapidapi-host": "google-search74.p.rapipi.com",
     },
   };
@@ -54,7 +54,7 @@ async function google(params) {
 const chatHistories = new Map();
 export default async function farmersAI(
   chatId,
-  apiKey = "AIzaSyB_RmZ5ibOZw2xZ8DifGXNCLT-Hk",
+  apiKey = "",
   query,
   models = "gemini-2.0-flash"
 ) {
